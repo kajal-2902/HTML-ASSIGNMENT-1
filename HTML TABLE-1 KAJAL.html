@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<!-- saved from url=(0036)http://127.0.0.1:5500/tabletask.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+   <table border="2" style="border: solid 2px black;" cellspacing="0">
+
+         <tbody><tr>
+            <th rowspan="2"> <a href="http://127.0.0.1:5500/tabletask.html#">Home</a></th>
+            <th rowspan="2"><a href="http://127.0.0.1:5500/tabletask.html#">About</a></th>
+            <th rowspan="2"><a href="http://127.0.0.1:5500/tabletask.html#">Contact</a></th>
+            <th rowspan="2"><a href="http://127.0.0.1:5500/tabletask.html#">Help</a></th>
+            <th rowspan="2"><a href="http://127.0.0.1:5500/tabletask.html#">Store</a></th>
+            <th style="background-color: red;"><a href="http://127.0.0.1:5500/tabletask.html#">Download</a></th>
+            
+            
+         </tr>
+        
+         <tr>
+      
+           
+            <td style="text-align: center; background-color: red;">app</td>
+           
+           
+         </tr>
+
+         <tr>
+            <td colspan="6">
+                <img src="./HTML TABLE-1 KAJAL_files/door.jpg" alt="" height="250px" width="100%">
+            </td>
+         
+           
+         </tr>
+
+         <tr>
+            <th colspan="6" style="background-color: rgb(231, 28, 62);">Contat-Us-Page</th>
+           
+          
+         </tr>
+
+         <tr>
+            <td colspan="6">
+                <img src="./HTML TABLE-1 KAJAL_files/contactus1.jpg" alt="" height="200" width="100%">
+            </td>
+          
+           
+         </tr>
+
+         <tr>
+            <form></form>
+            <th colspan="3" style="background-color: rgb(18, 139, 209);">
+                <label>First-Name</label> 
+                <input type="text" placeholder="Enter Your Name" required="">
+               
+            </th>
+           
+            <th colspan="3" style="background-color: rgb(18, 139, 209);">
+                <label>Last-Name</label> 
+                <input type="text" placeholder="Enter Your Name" required="">
+            </th>
+          
+            
+         </tr>
+
+         <tr>
+            <th colspan="3" style="background-color: rgb(18, 139, 209);">
+                <label>Email-Id</label> 
+                <input type="text" placeholder="Enter Your Email-Id" required="">
+            </th>
+           
+            <th colspan="3" style="background-color: rgb(18, 139, 209);">
+                <label>Phone-no</label> 
+                <input type="number" placeholder="Enter Your Phone-no" required="" pattern="[0-9]{10 ,}">
+            </th>
+           
+          
+         </tr>
+
+         <tr>
+            <th colspan="3" style="background-color: rgb(18, 139, 209);">
+                <label for="">City</label>
+                <select name="" id="">
+                    <option value="">Ahmedabad</option>
+                </select>
+            </th>
+           
+            <th colspan="3" style="background-color: rgb(18, 139, 209);">
+                <label for="">Gender</label>
+                Male<input type="radio" name="abc"> 
+
+                <label for="">Female</label>
+                <input type="radio" name="abc" id="">
+
+                <label for="">Other</label>
+                <input type="radio" name="abc" id="">
+            </th>
+        
+            
+         </tr>
+
+         <tr>
+            <td colspan="3">
+               
+                <iframe src="./HTML TABLE-1 KAJAL_files/embed.html" width="400px" height="500px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            </td>
+            
+            <td colspan="3">
+                <!-- <video src="table/Video.html/Deva-Deva-Shiva_s-Trending-Version-I-Brahmastra-I-_brahmastra-_ranbir_aliabhatt-_shortsvideo720P_HD.mp4" controls  height="500px" width="400px"></video> 
+                -->
+
+                <iframe width="600" height="500" src="./HTML TABLE-1 KAJAL_files/cLOT0APQzDs.html" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+            </td>
+         
+         </tr>
+
+  
+
+         
+        
+
+
+
+
+   </tbody></table> 
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
